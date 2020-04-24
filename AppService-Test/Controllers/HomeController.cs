@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AppService_Test.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace AppService_Test.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IConfiguration configuration;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
+            this.configuration = configuration;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var model = configuration["Greetings"];
+            return View("Index", model);
         }
 
         public IActionResult Privacy()
