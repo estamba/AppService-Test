@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppService-Test", "AppService-Test\AppService-Test.csproj", "{537F5712-94A7-432A-87A9-4111BCB5341C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService-Test", "AppService-Test\AppService-Test.csproj", "{537F5712-94A7-432A-87A9-4111BCB5341C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tambafunctions", "tambafunctions\tambafunctions.csproj", "{79E98D6F-EA6C-4FD7-8F07-D2C335CA47D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{537F5712-94A7-432A-87A9-4111BCB5341C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537F5712-94A7-432A-87A9-4111BCB5341C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537F5712-94A7-432A-87A9-4111BCB5341C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E98D6F-EA6C-4FD7-8F07-D2C335CA47D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E98D6F-EA6C-4FD7-8F07-D2C335CA47D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E98D6F-EA6C-4FD7-8F07-D2C335CA47D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E98D6F-EA6C-4FD7-8F07-D2C335CA47D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

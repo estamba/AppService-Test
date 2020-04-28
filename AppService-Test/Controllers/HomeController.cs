@@ -26,7 +26,10 @@ namespace AppService_Test.Controllers
             var model = configuration["Greetings"];
             return View("Index", model);
         }
-
+        public IActionResult Test()
+        {
+            throw new InvalidOperationException("error!");
+        }
         public IActionResult Privacy()
         {
             return View();
